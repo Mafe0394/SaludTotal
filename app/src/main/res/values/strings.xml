@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">SaludTotal</string>
+    <!--Start activity-->
+    <string name="start_sesion">INICIA SESIÓN</string>
+    <string name="sub_start_sesion">Si ya cuentas con usuario y contraseña</string>
+    <string name="start_registrate">REGÍSTRATE</string>
+    <string name="sub_start_registrate">Si eres nuevo afiliado o aún no cuentas con usuario y contraseña</string>
+    <string name="start_afiliate">AFÍLIATE</string>
+    <string name="start_directorio">DIRECTORIO</string>
+    <string name="start_noticias">NOTICIAS</string>
+    <string name="start_apps">APPS</string>
+
+    <!--Affiliate Activity-->
+    <string name="lb_affiliate_required_field">\u0020*</string>
+    <string name="lb_nombres">NOMBRES </string>
+    <string name="et_nombres">Ingresa tus nombres</string>
+    <string name="et_apellidos">Ingresa tus apellidos</string>
+    <string name="lb_apellidos">APELLIDOS </string>
+    <string name="et_tipo_identificacion">Selecciona el tipo de identificación</string>
+    <string name="lb_tipo_identificacion">TIPO DE IDENTIFICACIÓN </string>
+    <string name="et_n_identificacion">Ingresa el número de identificación</string>
+    <string name="lb_n_identificacion">NÚMERO DE IDENTIFICACIÓN </string>
+    <string name="et_fijo">Ingresa tu número de teléfono fijo</string>
+    <string name="lb_fijo">TÉLEFONO FIJO </string>
+    <string name="et_celular">Ingresa tu número de celular</string>
+    <string name="lb_celular">CELULAR </string>
+    <string name="et_email">Ingresa tu correo</string>
+    <string name="lb_email">CORREO ELECTRÓNICO </string>
+    <string name="et_conf_email">Confirma tu correo</string>
+    <string name="lb_conf_email">CONFIRMA TU CORREO ELECTRÓNICO </string>
+    <string name="et_ciudad">Selecciona tu ciudad</string>
+    <string name="lb_ciudad">CIUDAD </string>
+    <string name="et_hora">Selecciona la hora</string>
+    <string name="lb_hora">¿A QUÉ HORA TE PODEMOS LLAMAR? </string>
+    <string name="et_comentarios">Ingresa un comentario</string>
+    <string name="lb_comentarios">COMENTARIOS </string>
+    <string name="lb_required_files">Los campos marcados con * son obligatorios</string>
+    <string name="lb_accept_terms">¿Autoriza a Salud Total EPS-S el manejo de tus datos personales?</string>
+    <string name="btn_enviar">ENVIAR</string>
+    <string name="lb_privacy_policies">Tus datos personales han sido y están siendo tratados conforme con nuestra Política de Tratamiento de Datos Personales. Para mayor información podrás consultar nuestra política en la página web
+        <a href="https://www.google.com/search?q=los+gatos+son+malvados&amp;rlz=1C1CHBF_esCO873CO873&amp;oq=los+gatos+son+malvados&amp;aqs=chrome..69i57j0l5.4550j0j7&amp;sourceid=chrome&amp;ie=UTF-8">Política de Privacidad</a></string>
+
+    <string-array name="tipo_documento">
+        <item>Selecciona el tipo de identificación</item>
+        <item>CEDULA DE CIUDADANIA</item>
+        <item>CARNET DIPLOMATICO</item>
+        <item>CERTIFICADO NACIDO VIVO</item>
+        <item>CEDULA DE EXTRANJERIA</item>
+        <item>PERSONERIA JURIDICA</item>
+        <item>MENOR DE EDAD </item>
+        <item>MENOR SIN IDENTIFICACION</item>
+        <item>NIT</item>
+        <item>NUMERO UNICO DE IDENTIFICACION PERSONAL</item>
+        <item>PASAPORTE</item>
+        <item>Permiso Especial de Permanencia</item>
+        <item>REGISTRO CIVIL </item>
+        <item>SALVOCONDUCTO</item>
+        <item>TARJETA DE IDENTIDAD</item>
+    </string-array>
+
+    <!--Register Activity-->
+    <string name="lb_register_msg1">Si eres nuevo afiliado o aún no cuentas con usuario y contraseña.</string>
+    <string name="et_register_numero_identificacion">Ingresa tu número de identificación</string>
+    <string name="lb_register_contrasenha">CONTRASEÑA</string>
+    <string name="et_register_contrasenha">Ingresa una contraseña</string>
+    <string name="lb_register_validar_contrasenha">VALIDAR CONTRASEÑA</string>
+    <string name="et_register_validar_contrasenha">Confirma la contraseña</string>
+    <string name="lb_register_terminos">Acepta los términos y condiciones del servicio</string>
+    <string name="btn_register_text">REGÍSTRATE</string>
+
+    <!--Login Activity-->
+    <string name="lb_login_msg1">Si ya cuentas con usuario y contraseña.</string>
+    <string name="et_login_contrasenha">Ingresa tu contraseña</string>
+    <string name="lb_login_forgot_password">OLVIDÉ MI CONTRASEÑA</string>
+    <string name="btn_login">INICIA SESIÓN</string>
+
+
+    <!--Otros strings-->
+    <string name="error_no_internet">No hemos detectado una conexión a internet, revisa tu configuración e intenta nuevamente.</string>
+    <string name="error_servidor">En estos momentos no es posible realizar esta operación.</string>
+    <string name="error_inesperado_servicios">Temporalmente no está disponible el acceso a la aplicación, por favor intenta más tarde.</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="ok">Aceptar</string>
+    <string name="cargando">Cargando</string>
+    <string name="cerrar">Cerrar</string>
+    <string name="pac">PAC</string>
+
+    <!--Home menu POS-->
+    <string name="home_menu_home">HOME</string>
+    <string name="home_menu_your_data">TUS DATOS</string>
+    <string name="home_menu_notifications">NOTIFFICACIONES</string>
+    <string name="home_menu_news">NOTICIAS</string>
+    <string name="home_menu_directory">DIRECTORIO</string>
+    <string name="home_menu_related_apps">APLICACIONES RELACIONADAS</string>
+    <string name="home_menu_close_sesion">CERRAR SESIÓN</string>
+    <string name="slash">\u0020/\u0020</string>
+    <string name="version_muestra">Versión 0.0.0</string>
+    <string name="nombre_muestra">Juan Andrés Millán</string>
+    <string name="oftalmologia_muestra">Oftalmologia</string>
+    <string name="date_muestra">lunes, 13 de mayo</string>
+    <string name="horas_muestra">10:00 A.M. -10:20 A.M.</string>
+    <string name="clinica_muestra">Clínica de Occidente</string>
+    <string name="title_activity_home_menu1">HomeMenu1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="a_n_no_tienes_notificaciones">Aún no tienes notificaciones</string>
+    <string name="visualiza_estado_tu_afiliacion_y_el_de_tu_grupo_familiar">Visualiza el estado tu estado de afiliación y el de tu grupo familiar correspondiente</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="home_lb_citas_medicas">CITAS MÉDICAS</string>
+    <string name="home_lb_autorizaciones">AUTORIZACIONES</string>
+    <string name="home_lb_radicaciones">RADICACIONES</string>
+    <string name="home_lb_certificaciones">CERTIFICACIONES</string>
+    <string name="home_lb_estado_afiliacion">ESTADO DE AFILIACIÓN</string>
+    <string name="home_lb_laboratorios">LABORATORIOS</string>
+    <string name="home_lb_cambio_ips">CAMBIO DE IPS</string>
+    <string name="home_lb_historia_clinica">HISTORIA CLÍNICA</string>
+    <string name="home_lb_chateaconnosotros">CHATEA CON NOSOTROS</string>
+    <string name="home_lb_orientacion_medica">ORIENTACIÓN MÉDICA</string>
+    <string name="home_tb_welcome">Bienvenido (a)\n Felipe Pinillos</string>
+    <string name="lab_his_cli_msg">Genera tus historias clínicas aquí. Selecciona si deseas enviarlas a tu correo electrónico registrado o descárgarlas en tu dispositivo. Los documentos se generan cifrados; para abrirlos digita el número de identificación correspondiente.</string>
+    <string name="lb_paciente">PACIENTE</string>
+    <string name="lb_especialidad">ESPECIALIDAD</string>
+    <string name="lb_anho_consulta">AÑO DE CONSULTA</string>
+    <string name="btn_consultar">CONSULTAR</string>
+
+</resources>

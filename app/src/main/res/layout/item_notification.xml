@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="position"
+            type="Integer"/>
+        <variable
+            name="viewmodel"
+            type="com.wigilabs.saludtotal.notifications.NotificationsViewModel"/>
+    </data>
+
+    <LinearLayout
+        android:padding="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_25dp"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:id="@+id/container_view"
+        android:elevation="@dimen/_1dp"
+        android:background="@drawable/shape_rectangle_1rd"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:lineSpacingExtra="4sp"
+            tool:text="10:00 A.M. -10:20 A.M." />
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/grey_9e9e9e"
+            android:lineSpacingExtra="4sp"
+            tool:text="Oftalmología" />
+
+        <TextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:lineSpacingExtra="4sp"
+            tool:text="Lunes, 13 de mayo" />
+
+        <TextView
+            android:id="@+id/tv_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@color/grey_9e9e9e"
+            android:lineSpacingExtra="4sp"
+            tool:text="Clínica de Occidente" />
+    </LinearLayout>
+</layout>

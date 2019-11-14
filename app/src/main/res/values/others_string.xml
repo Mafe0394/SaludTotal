@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="key_preferences" translatable="false">user_preferences</string>
+    <string-array name="tipo_documento_id" translatable="false">
+        <item>C</item>
+        <item>CD</item>
+        <item>CN</item>
+        <item>E</item>
+        <item>J</item>
+        <item>M</item>
+        <item>MS</item>
+        <item>N</item>
+        <item>NU</item>
+        <item>P</item>
+        <item>PE</item>
+        <item>R</item>
+        <item>SC</item>
+        <item>T</item>
+    </string-array>
+
+
+</resources>

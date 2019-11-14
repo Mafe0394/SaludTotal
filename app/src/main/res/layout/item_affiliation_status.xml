@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="position"
+            type="Integer"/>
+        <variable
+            name="viewmodel"
+            type="com.wigilabs.saludtotal.affiliationstatus.AffiliationStatusViewModel"/>
+    </data>
+
+    <LinearLayout
+        android:padding="@dimen/_10dp"
+        android:layout_marginTop="@dimen/_25dp"
+        android:layout_marginStart="@dimen/_10dp"
+        android:layout_marginEnd="@dimen/_10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="5"
+            android:id="@+id/container_view"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_affiliated_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4sp"
+                tool:text="Juan Andrés Millán" />
+            <TextView
+                android:id="@+id/tv_document_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/grey_808080"
+                android:lineSpacingExtra="4sp"
+                android:gravity="center_horizontal"
+                tool:text="CC 1023456789" />
+            <TextView
+                android:id="@+id/tv_affiliation_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/startBlueGradient"
+                android:lineSpacingExtra="4sp"
+                android:gravity="center_horizontal"
+                tool:text="Cotizante" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center|end"
+            android:drawableStart="@drawable/circle_shape_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:lineSpacingExtra="4sp"
+            tool:text="Activo" />
+    </LinearLayout>
+
+</layout>

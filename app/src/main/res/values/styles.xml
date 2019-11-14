@@ -1,0 +1,58 @@
+<resources xmlns:ns1="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Splash application theme-->
+    <style name="SplashScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!--Start application theme-->
+    <style name="StartScreenTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorControlHighlight">@color/colorWhite</item>
+        <item name="android:labelTextSize">@dimen/_12sp</item>
+        <item name="android:textColorLink">@color/startBlueGradient</item>
+    </style>
+
+    <style name="Button1" parent="Widget.MaterialComponents.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/_11dp</item>
+    </style>
+
+    <style name="label_info" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textColor">@color/grey_privacy_politic</item>
+        <item name="android:textSize">@dimen/_12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="label_info_azul" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textColor">@color/startBlueGradient</item>
+        <item name="android:textSize">@dimen/_12sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="label_names" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:textColor">@color/colorText1</item>
+        <item name="android:textSize">@dimen/_14sp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

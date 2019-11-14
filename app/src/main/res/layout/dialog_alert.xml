@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="model"
+            type="com.wigilabs.saludtotal.dialogs.AlertDialogModel" />
+
+        <variable
+            name="clase"
+            type="com.wigilabs.saludtotal.dialogs.AlertDialogGeneral" />
+
+    </data>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_31dp"
+        android:layout_marginEnd="@dimen/_31dp"
+        app:cardCornerRadius="@dimen/_10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_27dp"
+        android:layout_marginBottom="@dimen/_18dp"
+        android:layout_marginStart="@dimen/_18dp"
+        android:layout_marginEnd="@dimen/_18dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                app:srcCompat="@drawable/ic_st_general_popup_logosaludtotal"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:textColor="@color/grey_808080"
+                android:text="@{model.subTitulo}" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:gravity="center"
+                android:text="@{model.mensaje}" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_cancelar"
+                    style="@style/Button1"
+                    app:cornerRadius="@dimen/_20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="@dimen/_110dp"
+                    android:backgroundTint="@color/grey_bababa"
+                    android:onClick="@{()->clase.cancelar()}"
+                    android:paddingStart="@dimen/_10dp"
+                    android:paddingEnd="@dimen/_10dp"
+                    android:paddingBottom="@dimen/_10dp"
+                    android:paddingTop="@dimen/_10dp"
+                    android:textColor="@color/colorWhite"
+                    android:text="@{model.textoBtnCancelar}" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_aceptar"
+                    style="@style/Button1"
+                    app:cornerRadius="@dimen/_20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="@dimen/_110dp"
+                    android:backgroundTint="@color/endBlueGradient"
+                    android:onClick="@{()->clase.aceptar()}"
+                    android:layout_marginStart="@dimen/_10dp"
+                    android:paddingStart="@dimen/_10dp"
+                    android:paddingEnd="@dimen/_10dp"
+                    android:paddingBottom="@dimen/_10dp"
+                    android:paddingTop="@dimen/_10dp"
+                    android:textSize="@dimen/_14sp"
+                    android:textColor="@color/colorWhite"
+                    android:text="@{model.textoBtnAceptar}" />
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</layout>

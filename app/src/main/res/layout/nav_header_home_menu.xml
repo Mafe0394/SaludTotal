@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite">
+    <ImageView
+        android:id="@+id/header_userlogo"
+        android:layout_width="@dimen/_14dp"
+        android:layout_height="@dimen/_16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/header_user_name"
+        app:layout_constraintBottom_toBottomOf="@id/header_user_name"
+        android:layout_marginStart="@dimen/_15dp"
+        app:srcCompat="@drawable/ic_st_general_usuario"/>
+    <TextView
+        android:id="@+id/header_user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/header_userlogo"
+        android:layout_marginTop="@dimen/_66dp"
+        android:layout_marginStart="@dimen/_7dp"
+        android:textSize="@dimen/_16sp"
+        android:textColor="@color/colorText1"
+        android:text="@string/lb_nombres" />
+    <TextView
+        android:id="@+id/header_user_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/header_userlogo"
+        app:layout_constraintTop_toBottomOf="@id/header_userlogo"
+        android:textSize="@dimen/_14sp"
+        android:text="@string/app_name"/>
+    <TextView
+        android:id="@+id/header_slash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/header_user_type"
+        app:layout_constraintStart_toEndOf="@id/header_user_type"
+        android:text="@string/slash"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/header_user_type"
+        app:layout_constraintStart_toEndOf="@id/header_slash"
+        android:textColor="@color/startBlueGradient"
+        android:text="@string/app_name"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

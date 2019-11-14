@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004b93</color>
+    <color name="colorPrimaryDark">#2d4f8c</color>
+    <color name="colorAccent">#ffec00</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#b9b9b9</color>
+    <color name="colorTransparent">#00ffffff</color>
+    <color name="colorText1">#333333</color>
+    <color name="startBlueGradient">#009fe3</color>
+    <color name="endBlueGradient">#2d4f8c</color>
+    <color name="black_7">#12000000</color>
+    <color name="black_11">#1c000000</color>
+    <color name="grey_privacy_politic">#7f7f7f</color>
+    <color name="colorlightgray">#bbbbbb</color>
+    <color name="red_829">#ef3829</color>
+    <color name="black_222">#222222</color>
+    <color name="transparent_black_99">#99000000</color>
+    <color name="white_transparent">#88ffffff</color>
+    <color name="rojo">#D52B1E</color>
+    <color name="gris_ec">#ececec</color>
+    <color name="gris_e6">#e6e6e6</color>
+    <color name="gris_ea79">#ea797979</color>
+    <color name="gris_70">#707070</color>
+    <color name="gris_f8">#f8f8f8</color>
+    <color name="orange">#ffb83d</color>
+    <color name="colorTreansparent">#00000000</color>
+    <color name="red_ff">#FF493A</color>
+    <color name="grey_9e9e9e">#9e9e9e</color>
+    <color name="black">#000000</color>
+    <color name="grey_808080">#808080</color>
+    <color name="item_nav_box">#122d4f8c</color>
+    <color name="gris_b9">#b9b9b9</color>
+    <color name="gris_f9f9f9">#f9f9f9</color>
+    <color name="grey_bababa">#bababa</color>
+
+</resources>

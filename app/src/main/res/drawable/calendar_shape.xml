@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <shape>
+            <solid android:color="@color/colorWhite" />
+            <corners android:radius="@dimen/_20dp" />
+        </shape>
+    </item>
+    <item android:bottom="@dimen/_10dp" android:left="@dimen/_10dp" android:right="@dimen/_10dp" android:top="@dimen/_10dp">
+        <bitmap android:gravity="center|right" android:src="@drawable/st_general_calendariofecha" />
+    </item>
+</layer-list>

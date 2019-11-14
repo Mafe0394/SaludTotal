@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="model"
+            type="com.wigilabs.saludtotal.dialogs.InfoDialogModel" />
+
+        <variable
+            name="clase"
+            type="com.wigilabs.saludtotal.dialogs.InfoDialog" />
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle_10rd"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginBottom="@dimen/_10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_33dp"
+            android:layout_width="103dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/ic_st_general_popup_logosaludtotal"
+            android:contentDescription="@null" />
+        <TextView
+            android:layout_marginTop="@dimen/_10dp"
+            android:layout_marginBottom="@dimen/_10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="email|map|web"
+            android:gravity="center"
+            android:padding="1dp"
+            android:textSize="14sp"
+            android:text="@{model.title}" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:text="@{model.subTitulo}" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_aceptar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_80dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="@dimen/_80dp"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:onClick="@{()->clase.aceptar()}"
+            android:text="@{model.textoBtn}"
+            android:textColor="@color/colorWhite"
+            app:cornerRadius="@dimen/_20dp" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:id="@+id/nav_home"
+        android:title="@string/home_menu_home"
+        android:icon="@drawable/ic_st_menu_home"
+        android:orderInCategory="1"/>
+    <item android:id="@+id/nav_your_data"
+        android:title="@string/home_menu_your_data"
+        android:icon="@drawable/ic_st_menu_tusdatos"
+        android:orderInCategory="2"/>
+    <item android:id="@+id/nav_notifications"
+        android:title="@string/home_menu_notifications"
+        android:icon="@drawable/ic_st_menu_notificaciones"
+        android:orderInCategory="3"/>
+    <item android:id="@+id/nav_news"
+        android:title="@string/home_menu_news"
+        android:icon="@drawable/ic_st_menu_noticias"
+        android:orderInCategory="4"/>
+    <item android:id="@+id/nav_directory"
+        android:title="@string/home_menu_directory"
+        android:icon="@drawable/ic_st_menu_directorio"
+        android:orderInCategory="5"/>
+    <item android:id="@+id/nav_related_apps"
+        android:title="@string/home_menu_related_apps"
+        android:icon="@drawable/ic_st_menu_aplicacionesrelacionadas"
+        android:orderInCategory="6"/>
+    <item android:id="@+id/nav_close_sesion"
+        android:title="@string/home_menu_close_sesion"
+        android:icon="@drawable/ic_st_menu_cerrarsesion"
+        android:orderInCategory="7"/>
+
+</menu>

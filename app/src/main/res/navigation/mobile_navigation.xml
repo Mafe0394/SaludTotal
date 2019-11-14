@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.wigilabs.saludtotal.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_your_data"
+        android:name="com.wigilabs.saludtotal.fragments.yourData.YourDataFragment"
+        android:label="@string/home_menu_your_data"
+        tools:layout="@layout/fragment_your_data" />
+
+    <fragment
+        android:id="@+id/nav_notifications"
+        android:name="com.wigilabs.saludtotal.fragments.notifications.NotificationFragment"
+        android:label="@string/home_menu_notifications"
+        tools:layout="@layout/notification_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.wigilabs.saludtotal.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_directory"
+        android:name="com.wigilabs.saludtotal.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_related_apps"
+        android:name="com.wigilabs.saludtotal.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+
+    <fragment
+        android:id="@+id/nav_close_sesion"
+        android:name="com.wigilabs.saludtotal.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+</navigation>

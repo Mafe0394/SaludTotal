@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/afiliate"
+        android:title="@string/start_afiliate"
+        android:icon="@drawable/ic_st_home_afiliate"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/directorio"
+        android:title="@string/start_directorio"
+        android:icon="@drawable/ic_st_home_directorio"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/noticias"
+        android:title="@string/start_noticias"
+        android:icon="@drawable/ic_st_homenoticias"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/apps"
+        android:title="@string/start_apps"
+        android:icon="@drawable/ic_st_home_apps"
+        android:enabled="true"
+        app:showAsAction="ifRoom" />
+</menu>

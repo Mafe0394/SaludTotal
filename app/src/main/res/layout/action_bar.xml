@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ActionBar_r"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_90dp"
+    android:background="@drawable/degradado"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/ThemeOverlay.MaterialComponents.Dark"
+    app:popupTheme="@style/ThemeOverlay.MaterialComponents.Dark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:paddingStart="0dp"
+        android:paddingEnd="@dimen/_16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_marginBottom="@dimen/_14dp"
+            android:layout_gravity="end"
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:contentDescription="@null"
+            app:srcCompat="@drawable/ic_st_general_saludtotallogo" />
+
+        <TextView
+            android:text="@string/app_name"
+            android:layout_marginEnd="@dimen/_20dp"
+            android:layout_marginBottom="@dimen/_20dp"
+            android:layout_gravity="center"
+            android:id="@+id/titleAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>
+
+   <!--
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_23dp"
+            android:contentDescription="@null"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_st_general_saludtotallogo" />
+
+        <TextView
+            android:id="@+id/titleAB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            tools:text="Prueba"
+            android:textAlignment="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/_16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+   -->
